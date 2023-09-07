@@ -1,0 +1,20 @@
+body{
+    margin: 0%;
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 10rem;
+    list-style: none;
+    justify-content: end;
+}
+
+.abas>ul{
+    display: flex;
+}
+.abas>ul>li{
+    width: 5rem;
+}
+
