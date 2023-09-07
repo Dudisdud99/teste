@@ -3,18 +3,69 @@ body{
 }
 
 nav{
-    position: fixed;
     display: flex;
     width: 100%;
-    height: 10rem;
-    list-style: none;
+    height: 5rem;
     justify-content: end;
+}
+
+.home>a>img{
+    height: 5rem;
+}
+
+.home{
+    width: 100%;
 }
 
 .abas>ul{
     display: flex;
+    justify-content: center;
 }
 .abas>ul>li{
     width: 5rem;
+    list-style: none;
+}
+.abas>ul li>a{
+    text-decoration: none;
+    color: red; 
 }
 
+.info{
+    background-color: rgb(2, 2, 155);
+    width: 100%;
+    height: 5rem;
+}
+.info>ul{
+    justify-content: center;
+    gap: 7rem;
+    display: flex;
+}
+.info>ul>li{
+    width: 5rem;
+    list-style: none;
+}
+.info>ul li>p{
+    text-decoration: none;
+    color: rgb(6, 255, 6); 
+    font-size: xx-large;
+}
+
+.pro{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.pro div{
+    height: 30rem;
+    text-align: center;
+}
+
+.pro>:nth-child(1){
+    background-color: red;
+}
+.pro>:nth-child(2){
+    background-color: rgb(0, 255, 170);
+}
+.pro>:nth-child(3){
+    background-color: rgb(238, 255, 0);
+}
